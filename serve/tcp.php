@@ -9,14 +9,14 @@ $serv->set([
 
 //监听连接进入事件
 //$fd  客户端连接的唯一标识
-//$from_id   线程
-$serv->on('connect', function ($serv, $fd,$from_id) {  
-    echo "Client:{$from_id}-{$fd}-Connect.\n";
+//$reactor_id   线程
+$serv->on('connect', function ($serv, $fd,$reactor_id) {  
+    echo "Client:{$reactor_id}-{$fd}-Connect.\n";
 });
 
 //监听数据接收事件
-$serv->on('receive', function ($serv, $fd, $from_id, $data) {
-    $serv->send($fd, "Server: {$from_id}-{$fd}-".$data);
+$serv->on('receive', function ($serv, $fd, $reactor_id, $data) {
+    $serv->send($fd, "Server: {$reactor_id}-{$fd}-".$data);
 });
 
 //监听连接关闭事件
