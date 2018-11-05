@@ -1,28 +1,28 @@
 <?php
-//´´½¨Server¶ÔÏó£¬¼àÌı 127.0.0.1:9501¶Ë¿Ú
-$serv = new swoole_server("127.0.0.1", 9501); 
+//åˆ›å»ºServerå¯¹è±¡ï¼Œç›‘å¬ 127.0.0.1:9501ç«¯å£
+$serv = new swoole_server("127.0.0.1", 9501);
 
 $serv->set([
-    'worker_num' => 4,    //worker½ø³ÌÊı   Ò»°ãÊÇcpuµÄ±¶Êı
-    'max_request' => 1000      //×î´óÇëÇóÊı
+    'worker_num' => 4,    //workerè¿›ç¨‹æ•°   ä¸€èˆ¬æ˜¯cpuçš„å€æ•°
+    'max_request' => 1000      //æœ€å¤§è¯·æ±‚æ•°
 ]);
 
-//¼àÌıÁ¬½Ó½øÈëÊÂ¼ş
-//$fd  ¿Í»§¶ËÁ¬½ÓµÄÎ¨Ò»±êÊ¶
-//$reactor_id   Ïß³Ì
-$serv->on('connect', function ($serv, $fd,$reactor_id) {  
+//ç›‘å¬è¿æ¥è¿›å…¥äº‹ä»¶
+//$fd  å®¢æˆ·ç«¯è¿æ¥çš„å”¯ä¸€æ ‡è¯†
+//$reactor_id   çº¿ç¨‹
+$serv->on('connect', function ($serv, $fd,$reactor_id) {
     echo "Client:{$reactor_id}-{$fd}-Connect.\n";
 });
 
-//¼àÌıÊı¾İ½ÓÊÕÊÂ¼ş
+//ç›‘å¬æ•°æ®æ¥æ”¶äº‹ä»¶
 $serv->on('receive', function ($serv, $fd, $reactor_id, $data) {
     $serv->send($fd, "Server: {$reactor_id}-{$fd}-".$data);
 });
 
-//¼àÌıÁ¬½Ó¹Ø±ÕÊÂ¼ş
+//ç›‘å¬è¿æ¥å…³é—­äº‹ä»¶
 $serv->on('close', function ($serv, $fd) {
     echo "Client: Close.\n";
 });
 
-//Æô¶¯·şÎñÆ÷
+//å¯åŠ¨æœåŠ¡å™¨
 $serv->start(); 
