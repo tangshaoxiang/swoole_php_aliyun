@@ -9,4 +9,4 @@ fwrite(STDOUT,"ÇëÊäÈëÏûÏ¢:");
 $msg = trim(fgets(STDIN));
 $client->send($msg);
 echo $client->recv();
-$client->close();
+//$client->close();
