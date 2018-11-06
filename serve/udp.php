@@ -9,7 +9,7 @@ $serv->set([
 
 //监听数据接收事件
 $serv->on('Packet', function ($serv, $data, $clientInfo) {
-    $serv->sendto($clientInfo['address'], $clientInfo['port'], "Server ".$data);
+    $serv->sendto($clientInfo['address'],$clientInfo['port'], "Server ".$data);
     var_dump($clientInfo);
 });
 
