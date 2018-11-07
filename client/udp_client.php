@@ -12,6 +12,7 @@
 //$client->close();
 
 $client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
+$client->connect("127.0.0.1", 9502, 0.5);
 $client->on("connect", function($cli) {
     $cli->send("hello world\n");
 });
@@ -24,4 +25,3 @@ $client->on("error", function($cli){
 $client->on("close", function($cli){
     echo "connection close\n";
 });
-$client->connect("127.0.0.1", 9502, 0.5);
