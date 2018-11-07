@@ -12,8 +12,9 @@
 //$client->close();
 
 $client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
-$client->connect("127.0.0.1", 9502, 0.5);
+
 $client->on("connect", function($client) {
+    $client->connect("127.0.0.1", 9502, 0.5);
     $client->send("hello world\n");
 });
 $client->on("receive", function($cli, $data){
