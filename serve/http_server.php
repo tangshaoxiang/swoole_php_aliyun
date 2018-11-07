@@ -7,6 +7,6 @@
  */
 $http = new swoole_http_server("0.0.0.0",8811);
 $http->on('request', function ($request, $response) {
-    $response->end("ssss");
+    $response->end("alis");
 });
 $http->start();
