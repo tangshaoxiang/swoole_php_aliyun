@@ -26,4 +26,4 @@ $client->on("error", function($cli){
 $client->on("close", function($cli){
     echo "connection close\n";
 });
-$client->connect("127.0.0.1", 9502, 0.5);
+$client->connect("127.0.0.1", 9502, -1);
