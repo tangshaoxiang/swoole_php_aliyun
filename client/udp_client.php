@@ -11,7 +11,7 @@
 //echo $client->recv();
 //$client->close();
 
-$client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
+$client = new swoole_client(SWOOLE_SOCK_UDP, SWOOLE_SOCK_ASYNC);
 
 $client->on("connect", function($client) {
 
