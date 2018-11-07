@@ -9,11 +9,11 @@ $http = new swoole_http_server("0.0.0.0", 8811);
 //$http->set(
 //    [
 //        'enable_static_handler'=>true,
-//        'document_root'=>"/home/wwwroot/"
+//        'document_root'=>"/home/wwwroot/default/swoole_thinkphp5/swoole_php_aliyun/data"
 //    ]
 //);
 $http->on('request', function ($request, $response) {
 
-    $response->end("<h1>Hello Swoole. #".rand(1000, 9999)."</h1>".json_encode($request->get()));
+    $response->end("<h1>Hello Swoole. #".rand(1000, 9999)."</h1>".json_encode($request->get));
 });
 $http->start();
