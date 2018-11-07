@@ -13,9 +13,9 @@
 
 $client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
 
-$client->on("connect", function($client) {
-    $client->connect("127.0.0.1", 9502, 0.5);
-    $client->send("hello world\n");
+$client->on("connect", function($cli) {
+    $cli->connect("127.0.0.1", 9502, 0.5);
+    $cli->send("hello world\n");
 });
 $client->on("receive", function($cli, $data){
     echo "received: {$data}\n";
