@@ -13,6 +13,6 @@ $http->set(
     ]
 );
 $http->on('request', function ($request, $response) {
-    $response->end("love");
+    $response->end("love".$request->get);
 });
 $http->start();
