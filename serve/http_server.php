@@ -13,6 +13,6 @@ $http->set(
     ]
 );
 $http->on('request', function ($request, $response) {
-    $response->end("love".$request->get);
+    $response->end("love".json_encode($request->get));
 });
 $http->start();
