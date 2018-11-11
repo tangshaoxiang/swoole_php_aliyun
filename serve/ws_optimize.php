@@ -19,6 +19,8 @@ class Ws_optimize{
         $this->ws->on('open',[$this,'onOpen']);
         $this->ws->on('message',[$this,'onMessage']);
         $this->ws->on('close',[$this,'onClose']);
+
+        $this->ws->start();
     }
 
     /**
