@@ -12,11 +12,11 @@
     var websocket = new WebSocket(wsServer);
     websocket.onopen = function (evt) {
         console.log("Connected to WebSocket server.");
+        websocket.send("hello tb");
     };
 
     websocket.onmessage = function (evt) {
         console.log('Retrieved data from server: ' + evt.data);
-        websocket.send("hello tb");
     };
 
     websocket.onclose = function (evt) {
