@@ -59,7 +59,7 @@ class Ws_optimize{
 
     public function onTask($ws, $task_id, $from_id, $data){
         echo "Tasker进程接收到数据";
-        echo "#{$ws->worker_id}\tonTask: [PID={$ws->worker_pid}]: task_id=$task_id, data_len=".strlen($data).".".PHP_EOL;
+        echo "#{$ws->worker_id}\nonTask: [PID={$ws->worker_pid}]: task_id=$task_id, data_len=".json_encode($data).".".PHP_EOL;
         sleep(10);
         return 'on task finish';
 
@@ -67,6 +67,7 @@ class Ws_optimize{
 
     public function onFinish($ws, $task_id, $data){
         echo "Task#$task_id finished, data_len=".strlen($data).PHP_EOL;
+        echo "{$data}";
     }
 
     public function onClose($ws,$fd){
