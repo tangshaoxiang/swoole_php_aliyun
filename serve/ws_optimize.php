@@ -16,8 +16,18 @@ class Ws_optimize{
     public function __construct()
     {
         $this->ws = new swoole_websocket_server(self::HOST,self::PORT);
+
+        $this->ws->set(
+            [
+                'worker_num'=>2,
+                'task_worker_num'=>2
+            ]
+        );
+
         $this->ws->on('open',[$this,'onOpen']);
         $this->ws->on('message',[$this,'onMessage']);
+        $this->ws->on('task',[$this,'onTask']);
+        $this->ws->on('finish',[$this,'onFinish']);
         $this->ws->on('close',[$this,'onClose']);
 
         $this->ws->start();
@@ -39,7 +49,24 @@ class Ws_optimize{
      */
     public function onMessage($ws,$frame){
         echo $frame->data;
+        $data =[
+          'task' => 'task',
+          'fd' =>$frame->fd
+        ];
+        $ws->task($data);
         $ws->push($frame->fd,'I love you');
+    }
+
+    public function onTask($ws, $task_id, $from_id, $data){
+        echo "Tasker进程接收到数据";
+        echo "#{$ws->worker_id}\tonTask: [PID={$ws->worker_pid}]: task_id=$task_id, data_len=".strlen($data).".".PHP_EOL;
+        sleep(10);
+        return 'on task finish';
+
+    }
+
+    public function onFinish($ws, $task_id, $data){
+        echo "Task#$task_id finished, data_len=".strlen($data).PHP_EOL;
     }
 
     public function onClose($ws,$fd){
