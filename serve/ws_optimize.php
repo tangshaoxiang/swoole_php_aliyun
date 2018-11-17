@@ -41,6 +41,8 @@ class Ws_optimize{
     public function onOpen($ws,$request){
 
         var_dump($request->fd);
+
+//        定时任务
         $timer = swoole_timer_tick(2000, function($timer_id){
             echo "timeout:".$timer_id.PHP_EOL;
         });
@@ -48,6 +50,8 @@ class Ws_optimize{
             echo '10s之后清除';
             swoole_timer_clear($timer);
         });
+
+
     }
 
     /**
@@ -61,7 +65,10 @@ class Ws_optimize{
           'task' => 'task',
           'fd' =>$frame->fd
         ];
+//        task任务
 //        $ws->task($data);
+
+//        定时任务
         swoole_timer_after(5000, function() use ($ws,$frame) {
             echo "fd:".$frame->fd.PHP_EOL;
             $ws->push($frame->fd,'5秒之后');
