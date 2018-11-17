@@ -61,6 +61,7 @@ class Ws_optimize{
         swoole_timer_after(5000, function() use ($ws,$frame) {
             echo "fd:".$frame->fd.PHP_EOL;
             $ws->push($frame->fd,'5秒之后');
+            swoole_timer_clear(1);
         });
         $ws->push($frame->fd,'I love you');
     }
