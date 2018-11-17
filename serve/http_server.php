@@ -15,7 +15,7 @@ $http->set(
 $http->on('request', function ($request, $response) {
 //    异步文件写入
         $file_content = [
-            'fd' => $request->fd,
+            'data' => date('Y-m-d H:i:s'),
             'get' => $request->get,
             'post' => $request->post,
             'header' => $request->header,
