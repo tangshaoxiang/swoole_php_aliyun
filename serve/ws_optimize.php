@@ -58,9 +58,8 @@ class Ws_optimize{
           'fd' =>$frame->fd
         ];
 //        $ws->task($data);
-        swoole_timer_after(5000, function($time_id) use ($data) {
-            echo "content:".json_encode($data).PHP_EOL;
-            echo "time_id:".$time_id.PHP_EOL;
+        swoole_timer_after(5000, function() use ($ws,$frame) {
+            echo "fd:".$frame->fd.PHP_EOL;
         });
         $ws->push($frame->fd,'I love you');
     }
