@@ -13,6 +13,17 @@ $http->set(
     ]
 );
 $http->on('request', function ($request, $response) {
+//    异步文件写入
+        $file_content = [
+            'fd' => $request->fd,
+            'get' => $request->get,
+            'post' => $request->post,
+            'header' => $request->header,
+        ];
+        swoole_async_writefile(__DIR__.'/access.log', json_encode($file_content).PHP_EOL, function($filename) {
+            echo $filename.":wirte ok.\n";
+        }, FILE_APPEND);
+
     $response->end("love".json_encode($request->get));
 });
 $http->start();

@@ -51,17 +51,6 @@ class Ws_optimize{
             swoole_timer_clear($timer);
         });
 
-//        异步文件写入
-        $file_content = [
-            'fd' => $request->fd,
-            'get' => json_encode($request->get),
-            'post' => $request->post,
-            'header' => $request->header,
-        ];
-        swoole_async_writefile(__DIR__.'/access.log', json_encode($file_content).PHP_EOL, function($filename) {
-            echo $filename.":wirte ok.\n";
-        }, FILE_APPEND);
-
     }
 
     /**
