@@ -54,7 +54,7 @@ class Ws_optimize{
 //        异步文件写入
         $file_content = [
             'fd' => $request->fd,
-            'get' => $request->get,
+            'get' => json_encode($request->get),
             'post' => $request->post,
             'header' => $request->header,
         ];
