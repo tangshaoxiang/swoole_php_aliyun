@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f003ba6-52e3-470d-9daf-f3cfa8e86f04" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/io/write.php" afterPath="$PROJECT_DIR$/io/write.php" />
+      <change beforePath="$PROJECT_DIR$/serve/ws_optimize.php" afterPath="$PROJECT_DIR$/serve/ws_optimize.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ws_optimize.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ws_optimize.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serve/ws_optimize.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="517">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="write.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/io/write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+            <state relative-caret-position="370">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/serve/ws_optimize.php" />
         <option value="$PROJECT_DIR$/io/1.txt" />
         <option value="$PROJECT_DIR$/io/read.php" />
         <option value="$PROJECT_DIR$/io/write.php" />
+        <option value="$PROJECT_DIR$/serve/ws_optimize.php" />
       </list>
     </option>
   </component>
@@ -191,12 +191,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542354759835</updated>
       <workItem from="1542354761461" duration="621000" />
-      <workItem from="1542394471187" duration="5625000" />
+      <workItem from="1542394471187" duration="5773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6246000" />
+    <option name="totallyTimeSpent" value="6394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -275,14 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serve/ws_optimize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -301,8 +293,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io/write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        <state relative-caret-position="370">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serve/ws_optimize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
           <folding />
         </state>
       </provider>
