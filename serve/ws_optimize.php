@@ -41,12 +41,12 @@ class Ws_optimize{
     public function onOpen($ws,$request){
 
         var_dump($request->fd);
-        swoole_timer_tick(2000, function($timer_id){
+        $timer = swoole_timer_tick(2000, function($timer_id){
             echo "timeout:".$timer_id.PHP_EOL;
-            swoole_timer_after(10000,function () use ($timer_id) {
-                echo '10s之后清除';
-                swoole_timer_clear($timer_id);
-            });
+        });
+        swoole_timer_after(10000,function () use ($timer) {
+            echo '10s之后清除';
+            swoole_timer_clear($timer);
         });
     }
 
