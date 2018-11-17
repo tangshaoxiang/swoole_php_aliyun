@@ -39,7 +39,11 @@ class Ws_optimize{
      * @param $request
      */
     public function onOpen($ws,$request){
+
         var_dump($request->fd);
+        swoole_timer_tick(2000, function($timer_id){
+            echo "timeout:".$timer_id.PHP_EOL;
+        });
     }
 
     /**
@@ -53,7 +57,11 @@ class Ws_optimize{
           'task' => 'task',
           'fd' =>$frame->fd
         ];
-        $ws->task($data);
+//        $ws->task($data);
+        swoole_timer_after(5000, function($time_id) use ($data) {
+            echo "content:".json_encode($data).PHP_EOL;
+            echo "time_id:".$time_id.PHP_EOL;
+        });
         $ws->push($frame->fd,'I love you');
     }
 
