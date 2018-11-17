@@ -43,6 +43,10 @@ class Ws_optimize{
         var_dump($request->fd);
         swoole_timer_tick(2000, function($timer_id){
             echo "timeout:".$timer_id.PHP_EOL;
+            swoole_timer_after(10000,function () use ($timer_id) {
+                echo '10s之后清除';
+                swoole_timer_clear($timer_id);
+            });
         });
     }
 
@@ -61,7 +65,7 @@ class Ws_optimize{
         swoole_timer_after(5000, function() use ($ws,$frame) {
             echo "fd:".$frame->fd.PHP_EOL;
             $ws->push($frame->fd,'5秒之后');
-            swoole_timer_clear(1);
+//            swoole_timer_clear(1);
         });
         $ws->push($frame->fd,'I love you');
     }
