@@ -8,4 +8,4 @@
 $file_content = '佛冷';
 swoole_async_writefile(__DIR__.'/test.log', $file_content, function($filename) {
     echo $filename."wirte ok.\n";
-}, $flags = 0);
+}, $flags = 1);
