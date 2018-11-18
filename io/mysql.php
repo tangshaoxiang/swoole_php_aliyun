@@ -63,4 +63,6 @@ class Mysql{
 }
 
 $dbsource = new Mysql();
-$dbsource->execute(1,'tang');
+$data = $dbsource->execute(1,'tang');
+var_dump($data);
+echo 'start';
