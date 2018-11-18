@@ -66,3 +66,6 @@ $dbsource = new Mysql();
 $data = $dbsource->execute(1,'tang');
 var_dump($data).PHP_EOL;
 echo 'start'.PHP_EOL;
+
+
+// 详情页 -》mysql(阅读数) -》msyql 文章 +1 -》页面数据呈现出来
