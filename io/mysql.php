@@ -46,9 +46,9 @@ class mysql{
                 die;
             }
         });
-        echo 111;
-return  true;
+
         $sql = 'select * from test where id = '.$id;
+        return $sql;
         $this->mysql->query($sql,function ($db,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
             if($res==true){
