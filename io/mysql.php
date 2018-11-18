@@ -45,14 +45,11 @@ class mysql{
                 var_dump($mysql->connect_errno);
                 die;
             }
-        });
 
-        $sql = 'select * from test where id = '.$id;
+        $sql = 'select * from test where id = 1 ';
         echo $sql;
         $this->mysql->query($sql,function ($db,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
-            var_dump($res);
-            die;
             if($res==true){
                 //todo
             }elseif($res==false){
@@ -60,12 +57,11 @@ class mysql{
             }else{
                 var_dump($res);
             }
+
         });
-
-        return true;
-    }
-
-
+        });
+            return true;
+     }
 }
 
 $dbsource = new mysql();
