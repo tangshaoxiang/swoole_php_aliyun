@@ -5,7 +5,7 @@
  * Date: 2018/11/18
  * Time: 17:21
  */
-class mysql{
+class Mysql{
     public $mysql = '';
     public $config = '';
     public function __construct()
@@ -43,25 +43,22 @@ class mysql{
         $this->mysql->connect($this->config,function ($mysql,$result){
             if($result===false){
                 var_dump($mysql->connect_errno);
-                die;
             }
         $sql = 'select * from test where id = 1 ';
-            echo $sql,die;
         $this->mysql->query($sql,function ($mysql,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
-            if($res==true){
+            if($res===true){
                 //todo
-            }elseif($res==false){
+            }elseif($res===false){
                 //todo
             }else{
                 var_dump($res);
             }
-
         });
         });
             return true;
      }
 }
 
-$dbsource = new mysql();
+$dbsource = new Mysql();
 $dbsource->execute(1,'tang');
