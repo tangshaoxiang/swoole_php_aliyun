@@ -44,7 +44,7 @@ class Mysql{
             if($result===false){
                 var_dump($mysql->connect_errno);
             }
-            var_dump($result);
+            var_dump('连接结果：'.$result);
         $sql = 'select * from test where id = 1 ';
         $this->mysql->query($sql,function ($mysql,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
@@ -64,5 +64,5 @@ class Mysql{
 
 $dbsource = new Mysql();
 $data = $dbsource->execute(1,'tang');
-var_dump($data);
-echo 'start';
+var_dump($data).PHP_EOL;
+echo 'start'.PHP_EOL;
