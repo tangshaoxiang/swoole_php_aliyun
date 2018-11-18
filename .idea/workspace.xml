@@ -26,12 +26,24 @@
       <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/io/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="332">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <marker date="1542535639121" expanded="true" signature="953:982" ph="select * fro... test" />
-                <marker date="1542535639121" expanded="true" signature="953:984" ph="select * fro... test" />
-                <marker date="1542535639121" expanded="true" signature="953:985" ph="select * fro... test" />
+                <marker date="1542536161144" expanded="true" signature="949:978" ph="select * fro... test" />
+                <marker date="1542536161144" expanded="true" signature="949:980" ph="select * fro... test" />
+                <marker date="1542536161144" expanded="true" signature="949:981" ph="select * fro... test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../swoole/demo/io/mysql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1776">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <marker date="1530683427289" expanded="true" signature="1163:1217" ph="update test... " />
               </folding>
             </state>
           </provider>
@@ -207,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542354759835</updated>
       <workItem from="1542354761461" duration="621000" />
-      <workItem from="1542394471187" duration="10595000" />
+      <workItem from="1542394471187" duration="11117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11216000" />
+    <option name="totallyTimeSpent" value="11738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -323,14 +335,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../swoole/demo/io/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1776">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1530683427289" expanded="true" signature="1163:1217" ph="update test... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/io/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="332">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <marker date="1542535639121" expanded="true" signature="953:982" ph="select * fro... test" />
-            <marker date="1542535639121" expanded="true" signature="953:984" ph="select * fro... test" />
-            <marker date="1542535639121" expanded="true" signature="953:985" ph="select * fro... test" />
+            <marker date="1542536161144" expanded="true" signature="949:978" ph="select * fro... test" />
+            <marker date="1542536161144" expanded="true" signature="949:980" ph="select * fro... test" />
+            <marker date="1542536161144" expanded="true" signature="949:981" ph="select * fro... test" />
           </folding>
         </state>
       </provider>

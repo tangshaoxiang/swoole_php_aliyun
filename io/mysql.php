@@ -12,7 +12,7 @@ class Mysql{
     {
         $this->mysql = new swoole_mysql();
         $this->config = array(
-            'host' => '106.14.14.231',
+            'host' => '127.0.0.1',
             'port' => 3306,
             'user' => 'root',
             'password' => 'root',
