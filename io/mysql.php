@@ -55,6 +55,7 @@ class Mysql{
             }else{
                 var_dump($res);
             }
+            $mysql->close();
         });
         });
             return true;
