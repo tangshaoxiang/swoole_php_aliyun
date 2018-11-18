@@ -49,9 +49,10 @@ class mysql{
 
         $sql = 'select * from test where id = '.$id;
         echo $sql;
-        die;
         $this->mysql->query($sql,function ($db,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
+            var_dump($res);
+            die;
             if($res==true){
                 //todo
             }elseif($res==false){
