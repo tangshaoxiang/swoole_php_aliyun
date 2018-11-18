@@ -8,7 +8,7 @@
 $process = new swoole_process(function (swoole_process $process) {
     echo 'hello';
     $process->exec('/usr/local/php/bin/php',[__DIR__.'/../serve/http_server.php']);
-}, true);
+}, false);
 $pid = $process->start();
 echo 'pid:'.$pid.PHP_EOL;
 $process->wait();
