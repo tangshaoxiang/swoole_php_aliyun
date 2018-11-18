@@ -26,12 +26,12 @@
       <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/io/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-334">
-              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="406">
+              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
-                <marker date="1542535536053" expanded="true" signature="922:951" ph="select * fro... test" />
-                <marker date="1542535536053" expanded="true" signature="922:953" ph="select * fro... test" />
-                <marker date="1542535536053" expanded="true" signature="922:954" ph="select * fro... test" />
+                <marker date="1542535639121" expanded="true" signature="953:982" ph="select * fro... test" />
+                <marker date="1542535639121" expanded="true" signature="953:984" ph="select * fro... test" />
+                <marker date="1542535639121" expanded="true" signature="953:985" ph="select * fro... test" />
               </folding>
             </state>
           </provider>
@@ -207,12 +207,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542354759835</updated>
       <workItem from="1542354761461" duration="621000" />
-      <workItem from="1542394471187" duration="10492000" />
+      <workItem from="1542394471187" duration="10595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11113000" />
+    <option name="totallyTimeSpent" value="11216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -325,12 +325,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="406">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
-            <marker date="1542535536053" expanded="true" signature="922:951" ph="select * fro... test" />
-            <marker date="1542535536053" expanded="true" signature="922:953" ph="select * fro... test" />
-            <marker date="1542535536053" expanded="true" signature="922:954" ph="select * fro... test" />
+            <marker date="1542535639121" expanded="true" signature="953:982" ph="select * fro... test" />
+            <marker date="1542535639121" expanded="true" signature="953:984" ph="select * fro... test" />
+            <marker date="1542535639121" expanded="true" signature="953:985" ph="select * fro... test" />
           </folding>
         </state>
       </provider>

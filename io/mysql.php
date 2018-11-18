@@ -44,6 +44,7 @@ class Mysql{
             if($result===false){
                 var_dump($mysql->connect_errno);
             }
+            var_dump($result);
         $sql = 'select * from test where id = 1 ';
         $this->mysql->query($sql,function ($mysql,$res){
             //$res   当为select时返回结果集，当为add,del,update时返回bool
