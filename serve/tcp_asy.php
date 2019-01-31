@@ -17,7 +17,7 @@ $serv->on("receive",function ($serv,$fd,$from_id,$data){
 
 //处理异步任务
 $serv->on('task',function ($serv,$task_id,$from_id,$data){
-   echo "执行 异步ID： $task_id";
+   echo "执行 异步ID： $task_id \n";
    $serv->finish("$data -> OK");
 });
 

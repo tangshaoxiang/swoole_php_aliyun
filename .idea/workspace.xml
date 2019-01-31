@@ -96,8 +96,8 @@
       <file leaf-file-name="tcp_asy.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serve/tcp_asy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="481">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -258,12 +258,12 @@
       <updated>1542354759835</updated>
       <workItem from="1542354761461" duration="621000" />
       <workItem from="1542394471187" duration="15194000" />
-      <workItem from="1548916320715" duration="8739000" />
+      <workItem from="1548916320715" duration="8933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24554000" />
+    <option name="totallyTimeSpent" value="24748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-1631" width="2902" height="1582" extended-state="6" />
@@ -564,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serve/tcp_asy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="481">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
