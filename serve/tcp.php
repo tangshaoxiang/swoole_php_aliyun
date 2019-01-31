@@ -2,10 +2,10 @@
 //创建Server对象，监听 127.0.0.1:9501端口
 $serv = new swoole_server("0.0.0.0", 9501);
 
-$serv->set([
-    'worker_num' => 4,    //worker进程数   一般是cpu的倍数
-    'max_request' => 1000      //最大请求数
-]);
+//$serv->set([
+//    'worker_num' => 4,    //worker进程数   一般是cpu的倍数
+//    'max_request' => 1000      //最大请求数
+//]);
 
 //监听连接进入事件
 //$fd  客户端连接的唯一标识
