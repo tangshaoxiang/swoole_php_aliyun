@@ -11,14 +11,14 @@ $serv->set(array('task_worker_num'=>4));
 
 //投递异步任务
 $serv->on("receive",function ($serv,$fd,$from_id,$data){
-    $tadk_id = $serv->task($data);
-    echo "异步 ID：　$tadk_id\n";
+    $task_id = $serv->task($data);
+    echo "异步 ID：　$task_id\n";
 });
 
 //处理异步任务
 $serv->on('task',function ($serv,$task_id,$from_id,$data){
    echo "执行 异步ID： $task_id";
-   $serv->finish("$data->OK");
+   $serv->finish("$data -> OK");
 });
 
 
