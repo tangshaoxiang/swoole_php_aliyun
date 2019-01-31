@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f003ba6-52e3-470d-9daf-f3cfa8e86f04" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/timing/time_single.php" afterPath="$PROJECT_DIR$/timing/time.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,21 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_single.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/timing/time_single.php">
+      <file leaf-file-name="time.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timing/time.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process/process.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="407">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -96,8 +87,18 @@
       <file leaf-file-name="tcp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serve/tcp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="481">
+              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_asy.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serve/tcp_asy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -143,6 +144,7 @@
         <option value="$PROJECT_DIR$/serve/ws_one.php" />
         <option value="$PROJECT_DIR$/data/ws_one.html" />
         <option value="$PROJECT_DIR$/timing/time_single.php" />
+        <option value="$PROJECT_DIR$/serve/tcp_asy.php" />
       </list>
     </option>
   </component>
@@ -257,12 +259,12 @@
       <updated>1542354759835</updated>
       <workItem from="1542354761461" duration="621000" />
       <workItem from="1542394471187" duration="15194000" />
-      <workItem from="1548916320715" duration="7929000" />
+      <workItem from="1548916320715" duration="8326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23744000" />
+    <option name="totallyTimeSpent" value="24141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-1631" width="2902" height="1582" extended-state="6" />
@@ -497,14 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serve/tcp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serve/udp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -553,10 +547,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timing/time_single.php">
+    <entry file="file://$PROJECT_DIR$/timing/time.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="407">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serve/tcp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serve/tcp_asy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
