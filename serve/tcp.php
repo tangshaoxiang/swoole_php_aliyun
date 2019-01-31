@@ -1,6 +1,6 @@
 <?php
 //创建Server对象，监听 127.0.0.1:9501端口
-$serv = new swoole_server("127.0.0.1", 9501);
+$serv = new swoole_server("0.0.0.0", 9501);
 
 $serv->set([
     'worker_num' => 4,    //worker进程数   一般是cpu的倍数
