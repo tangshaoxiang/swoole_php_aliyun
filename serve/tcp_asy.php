@@ -24,7 +24,7 @@ $serv->on('task',function ($serv,$task_id,$from_id,$data){
 
 //处理结果
 $serv->on('finish',function ($serv,$task_id,$data){
-    echo "执行成功";
+    echo "执行成功\n";
 });
 
 $serv->start();
