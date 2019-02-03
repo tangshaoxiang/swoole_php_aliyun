@@ -27,10 +27,18 @@ foreach ($workers as $pid => $process){
     $process->push("Hello 子进程 $pid \n");
 }
 
+foreach ($workers as $pid => $process){
+    $process->push("Hello 子进程2 $pid \n");
+}
+
 //等待 子进程结束 回收资源
 for($i=0;$i<$worker_num;$i++){
     $ret = swoole_process::wait(); //等待执行完成
     $pid = $ret['pid'];
     unset($workers[$pid]);
     echo "子进程退出 $pid \n";
+}
+
+foreach ($workers as $pid => $process){
+    $process->push("Hello 子进程3 $pid \n");
 }
