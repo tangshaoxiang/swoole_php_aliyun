@@ -14,7 +14,7 @@ if(pcntl_fork() >0 ){
     $lock->unlock(); //解锁
 }else{
     echo "子进程 等待锁\n";
-    $lock->lcok(); //上锁
+    $lock->lock(); //上锁
     echo "子进程 获取锁";
     $lock->unlock(); //释放锁
     exit("子进程退出");
