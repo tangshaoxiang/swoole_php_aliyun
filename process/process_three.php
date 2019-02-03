@@ -6,7 +6,7 @@
  * Time: 0:50
  */
 $workers = [];
-$worker_num = 2;
+$worker_num = 8;
 
 for ($i=0;$i<$worker_num;$i++){
     $process = new swoole_process('doProcess',false,false); //进程间通讯，第三个参数需要设为flase;创建子进程完成
