@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f003ba6-52e3-470d-9daf-f3cfa8e86f04" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/data/im.html" afterPath="$PROJECT_DIR$/data/im.html" />
+      <change beforePath="$PROJECT_DIR$/block/block.php" afterPath="$PROJECT_DIR$/lock/lock.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,101 +17,100 @@
       <file leaf-file-name="process_two.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/process_two.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="-150">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_three.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process/process_three.php">
+      <file leaf-file-name="mysql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="block.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block/block.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ws.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/ws.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_server.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/http_server.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="im.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serve/im.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ws.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serve/ws.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ws_optimize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serve/ws_optimize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="im.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/im.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="146">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1542536618008" expanded="true" signature="957:988" ph="select * fro... test" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ws_one.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/ws_one.html">
+      <file leaf-file-name="redis.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/redis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="407">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis_optimize.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/redis_optimize.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1059">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/curl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1186">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_four.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/process_four.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/memory/table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/read.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/write.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -135,9 +134,7 @@
         <option value="$PROJECT_DIR$/io/1.txt" />
         <option value="$PROJECT_DIR$/io/read.php" />
         <option value="$PROJECT_DIR$/io/write.php" />
-        <option value="$PROJECT_DIR$/serve/ws_optimize.php" />
         <option value="$PROJECT_DIR$/serve/http_server.php" />
-        <option value="$PROJECT_DIR$/io/mysql.php" />
         <option value="$PROJECT_DIR$/io/redis.php" />
         <option value="$PROJECT_DIR$/process/process.php" />
         <option value="$PROJECT_DIR$/client/tcp_client_1.php" />
@@ -155,6 +152,9 @@
         <option value="$PROJECT_DIR$/block/block.php" />
         <option value="$PROJECT_DIR$/serve/im.php" />
         <option value="$PROJECT_DIR$/data/im.html" />
+        <option value="$PROJECT_DIR$/serve/ws_optimize.php" />
+        <option value="$PROJECT_DIR$/io/mysql.php" />
+        <option value="$PROJECT_DIR$/io/redis_optimize.php" />
       </list>
     </option>
   </component>
@@ -197,22 +197,12 @@
             <path>
               <item name="swoole_php_aliyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole_php_aliyun" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="memory" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="swoole_php_aliyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole_php_aliyun" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="swoole_php_aliyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole_php_aliyun" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="swoole_php_aliyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole_php_aliyun" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="serve" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="process" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="swoole_php_aliyun" type="b2602c69:ProjectViewProjectNode" />
@@ -229,10 +219,14 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tyWechat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../swoole" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\phpStudy\PHPTutorial\WWW\swoole_thinkphp5\swoole_php_aliyun" />
+      <recent name="C:\phpStudy\PHPTutorial\WWW\swoole_thinkphp5\swoole_php_aliyun\process" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\phpStudy\PHPTutorial\WWW\swoole_thinkphp5\swoole_php_aliyun\serve" />
     </key>
@@ -268,12 +262,12 @@
       <workItem from="1549017739182" duration="100000" />
       <workItem from="1549209983439" duration="5254000" />
       <workItem from="1549348677617" duration="236000" />
-      <workItem from="1549353317608" duration="2931000" />
+      <workItem from="1549353317608" duration="6438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35115000" />
+    <option name="totallyTimeSpent" value="38622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -287,7 +281,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3237858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,35 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/ws_one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serve/http_server_one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serve/ws.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serve/ws_one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process/process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -361,6 +326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -480,45 +446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/io/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io/write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io/mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2590">
-          <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../swoole/demo/io/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3145">
           <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io/read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io/redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -548,13 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timing/time.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -589,34 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/process_one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/process_two.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process/process_three.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block/block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -664,26 +564,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/ws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serve/ws.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serve/ws_optimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="1221">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ws.html">
+    <entry file="file://$PROJECT_DIR$/lock/lock.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="629">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/process_one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/process_two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timing/time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <marker date="1542536618008" expanded="true" signature="957:988" ph="select * fro... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/redis_optimize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1059">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1186">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/process_four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
