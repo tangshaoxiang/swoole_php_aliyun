@@ -65,7 +65,7 @@ class Ws_optimize{
           'fd' =>$frame->fd
         ];
 //        task任务
-//        $ws->task($data);
+        $ws->task($data);
 
 //        定时任务
         swoole_timer_after(5000, function() use ($ws,$frame) {
