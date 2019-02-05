@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="send_msg" style="display: none">
+    <div id="msg"></div>
+    <div class="show_send">
+        <input type="text" id="text">
+        <input type="submit" class="send_button" value="发送数据" onclick="send_msg()">
+    </div>
+</div>
+
+
+<div id="setName" style="display: block">
+    <input type="text" id="myname">
+    <input type="submit" class="setUserName" value="设置昵称" onclick="send_name()"/>
+</div>
+</body>
+<scrpit type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></scrpit>
+<script>
+    var msg = document.getElementById("msg");
+    var wsServer = 'ws://106.14.14.231:9502';
+    var websocket = new WebSocket(wsServer);
+    websocket.onopen = function (evt) {
+        msg.innerHTML = websocket.readyState;
+    }
+
+    websocket.onmessage = function (evt) {
+        msg.innerHTML += evt.data+'<br>';
+        console.log('从服务器获取到的数据:'+evt.data);
+    };
+
+    websocket.onclose = function (evt) {
+        console.log("关闭连接")
+    }
+
+    websocket.onerror = function (evt) {
+        console.log('错误：'+evt.data);
+    }
+
+    function send_msg() {
+        var text = document.getElementById('text').value;
+        document.getElementById('text').value = '';
+        websocket.send(text);
+    }
+
+    function send_name() {
+        var text = document.getElementById('myname').value;
+        websocket.send("#name#"+text);
+        alert("设置成功");
+        var setName = document.getElementById("setName");
+        setName.style.display = "none";
+        var setName = document.getElementById("setName");
+        setName.style.display = "none";
+        var send_msg = document.getElementById("send_msg");
+        send_msg.style.display = "block";
+    }
+</script>
+</html>
