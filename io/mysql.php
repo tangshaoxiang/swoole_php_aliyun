@@ -7,7 +7,7 @@
  */
 class Mysql{
     public $mysql = '';
-    public $config = '';
+    public $config = [];
     public function __construct()
     {
         $this->mysql = new swoole_mysql();
@@ -68,4 +68,7 @@ var_dump($data).PHP_EOL;
 echo 'start'.PHP_EOL;
 
 
+for($i=0; $i<900000;$i++) {
+    echo $i.PHP_EOL;
+}
 // 详情页 -》mysql(阅读数) -》msyql 文章 +1 -》页面数据呈现出来

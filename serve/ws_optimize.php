@@ -19,8 +19,10 @@ class Ws_optimize{
 
         $this->ws->set(
             [
-                'worker_num'=>2,
-                'task_worker_num'=>2
+                'worker_num'=>2,  // worker进程数 cpu 1-4
+                'task_worker_num'=>2,
+                'enable_static_handler' => true,
+                'document_root'=>"/home/wwwroot/www.darian.xin/swoole_php_aliyun/data"
             ]
         );
 
@@ -80,7 +82,7 @@ class Ws_optimize{
         echo "Tasker进程接收到数据";
         echo "#{$ws->worker_id}\nonTask: [PID={$ws->worker_pid}]: task_id=$task_id, data_len=".json_encode($data).".".PHP_EOL;
         sleep(10);
-        return 'on task finish';
+        return 'on task finish'; // 告诉worker
 
     }
 
